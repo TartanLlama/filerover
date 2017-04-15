@@ -1,0 +1,46 @@
+
+Using FileRover
+
+First:
+    Extract all files and navigate to their location in the unix terminal or
+    command prompt.
+
+
+Server:
+    To run, start "serverio.py" in the python environment.
+    
+    To run the server using a specific file space, supply the desired directory
+    as a parameter at the command line. e.g. "python serverio.py filepath".
+    
+    The default file space is the directory the program is running in.
+
+
+Client:
+    To use the client, start "filerover.py" in the python environment, You will
+    be presented with a graphical user interface.
+    
+    From here, you may connect to a server at a specific address by typing the
+    address in the address field and clicking connect, or by choosing to "Show
+    Servers", then double-clicking a server from the list which appears. To
+    disconnect, click "Disconnect".
+    
+    Files on the local machine may be browsed using the panel on the left, and
+    files on the remote machine may be browsed on the right.
+    
+    To go into a directory or view a file as text (known problem: this fails on
+    very big files), double-click on the directory or file. To go up to the
+    parent directory, click "Back".
+    
+    To upload or download a file, select the file on the appropriate side of
+    the window and click "Upload" or "Download". The progress bar at the bottom
+    of the screen will show you the percentage complete, and transfers will run
+    one after the other.
+    
+    To refresh and update the list of items in the current directory on the
+    client and server sides, click the "Refresh" button.
+    
+    To make a new directory, type the directory name into the command bar (the
+    one below the "Connect" and "Refresh" buttons), and click "Make Dir" on the
+    client or server side.
+
+Thankyou for using FileRover!
